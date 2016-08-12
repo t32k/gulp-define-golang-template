@@ -1,0 +1,32 @@
+{
+  "name": "gulp-defined-template",
+  "version": "0.1.0",
+  "description": "Gulp extension to define a golang template to files in the pipeline.",
+  "main": "./index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/t32k/gulp-defined-template.git"
+  },
+  "author": {
+    "name": "Koji Ishimoto",
+    "url": "https://github.com/t32k"
+  },
+  "bugs": {
+    "url": "https://github.com/t32k/gulp-defined-template/issues"
+  },
+  "homepage": "https://github.com/t32k/gulp-defined-template#readme",
+  "dependencies": {
+    "concat-with-sourcemaps": "^1.0.4",
+    "gulp-util": "*",
+    "object-assign": "*",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "license": "MIT"
+}
