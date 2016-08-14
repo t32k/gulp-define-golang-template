@@ -1,18 +1,18 @@
 {
-  "name": "gulp-defined-template",
-  "version": "0.1.1",
+  "name": "gulp-define-golang-template",
+  "version": "0.1.0",
   "description": "Gulp extension to define a golang templates to files in the pipeline.",
-  "homepage": "https://github.com/t32k/gulp-defined-template#readme",
+  "homepage": "https://github.com/t32k/gulp-define-golang-template#readme",
   "author": {
     "name": "Koji Ishimoto",
     "url": "https://github.com/t32k"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/t32k/gulp-defined-template.git"
+    "url": "git+https://github.com/t32k/gulp-define-golang-template.git"
   },
   "bugs": {
-    "url": "https://github.com/t32k/gulp-defined-template/issues"
+    "url": "https://github.com/t32k/gulp-define-golang-template/issues"
   },
   "main": "./index.js",
   "scripts": {
