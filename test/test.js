@@ -3,7 +3,7 @@
 import test from 'ava';
 import gulp from 'gulp';
 import gutil from 'gulp-util';
-import defineTpl from './';
+import defineTpl from '../';
 
 var fakeFile;
 const getFakeFile =(fileContent) => {
@@ -33,7 +33,7 @@ test.cb ('Define as a golang template', t => {
 });
 
 test.cb ('Define multiple templates', t => {
-    let stream = gulp.src('./test/fixtures/*').pipe(defineTpl());
+    let stream = gulp.src('./fixtures/*').pipe(defineTpl());
     let files = [];
 
     stream.on('data', function (file) {
