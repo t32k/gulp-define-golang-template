@@ -1,31 +1,31 @@
 {
   "name": "gulp-defined-template",
-  "version": "0.1.0",
-  "description": "Gulp extension to define golang templates to files in the pipeline.",
-  "main": "./index.js",
-  "scripts": {
-    "test": "ava --verbose"
+  "version": "0.1.1",
+  "description": "Gulp extension to define a golang templates to files in the pipeline.",
+  "homepage": "https://github.com/t32k/gulp-defined-template#readme",
+  "author": {
+    "name": "Koji Ishimoto",
+    "url": "https://github.com/t32k"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/t32k/gulp-defined-template.git"
   },
-  "author": {
-    "name": "Koji Ishimoto",
-    "url": "https://github.com/t32k"
-  },
   "bugs": {
     "url": "https://github.com/t32k/gulp-defined-template/issues"
   },
-  "homepage": "https://github.com/t32k/gulp-defined-template#readme",
+  "main": "./index.js",
+  "scripts": {
+    "test": "ava --verbose"
+  },
   "dependencies": {
     "concat-with-sourcemaps": "^1.0.4",
-    "gulp": "^3.9.1",
     "gulp-util": "*",
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "^0.16.0"
+    "ava": "^0.16.0",
+    "gulp": "^3.9.1"
   },
   "license": "MIT"
 }
