@@ -1,3 +1,5 @@
+'use strict';
+
 const path = require('path');
 const through = require('through2');
 const Concat = require('concat-with-sourcemaps');

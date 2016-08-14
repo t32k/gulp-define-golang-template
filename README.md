@@ -1,6 +1,6 @@
 # gulp-defined-template [![Build Status](https://travis-ci.org/t32k/gulp-defined-template.svg?branch=master)](https://travis-ci.org/t32k/gulp-defined-template)
 
-gulp-defined-template is a Gulp extension to define a golang template to files in the pipeline.
+gulp-defined-template is a Gulp extension to define a [golang template](https://golang.org/pkg/text/template/) to files in the pipeline.
 
 
 ## Install

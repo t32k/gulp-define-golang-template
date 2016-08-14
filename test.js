@@ -1,3 +1,5 @@
+'use strict';
+
 import test from 'ava';
 import gutil from 'gulp-util';
 import defineTpl from './';
