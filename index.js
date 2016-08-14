@@ -15,7 +15,7 @@ module.exports = () => {
         file.contents = concat.content;
         
         this.push(file);
-	    cb();
+        cb();
     }
     return through.obj(TransformStream);
 };
